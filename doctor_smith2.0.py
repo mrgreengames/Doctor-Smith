@@ -229,6 +229,7 @@ def determine_final_report(is_all_working_protocols, is_all_working_extern_obs):
     
 
 if __name__ == '__main__':
+    raise DeprecationWarning('Sorry! Doctor Smith 2.0 is no longer in use. Please use Doctor Smith 3.0 and higher(until they deprecate)')
     all_w_prot = bool()
     all_w_obs = bool()
     test_protocols()
